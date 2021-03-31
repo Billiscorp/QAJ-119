@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Курс QA Core. Анкета участника</title> 
+ </head>
+ <body>
+  <h1 style="text-align: center">Курс QA Core. Анкета участника</h1>
+    <form name="Курс QA Core. Анкета участника" method="post" action="questionnaire.php">
+      <p> 
+        <label for="last-name">
+        <b style="width: 90px; display: inline-block">Фамилия:</b>
+        </label>
+        <input id="last-name" type="text" title="Фамилия вводится на русском языке с большой буквы" required>
+      </p>
+      <p>
+      <label for="first-name">
+        <b style="width: 90px; display: inline-block">Имя:</b>
+        </label>
+        <input id="first-name" type="text" title="Имя вводится на русском языке с большой буквы" required>
+      </p>
+      <p>
+      <label for="patronymic">
+        <b style="width: 90px; display: inline-block">Отчество:</b>
+        </label>
+        <input id="patronymic" type="text" title="Отчество вводится на русском языке с большой буквы" required>
+      </p>
+       <p>
+        <b style="width: 130px; display: inline-block">Пол:</b>
+        <input id="sex-f" type="radio" title="Укажите ваш пол" required name="sex" value="rad1"><label for="sex-f">Ж</label>
+       <input id="sex-m" type="radio" title="Укажите ваш пол" required name="sex" value="rad2"><label for="sex-m">М</label>
+       </p>
+       <p>
+       <label for="mobile-number">
+         <b style="width: 140px; display: inline-block">Номер телефона:</b>
+         </label>
+         <input id="mobile-number" type="tel" title="Ваш номер телефона в формате: &quot;+380503331234&quot;" required>
+         </p>
+         <p>
+       <label for="email-address">
+         <b style="width: 140px; display: inline-block">Адрес электронной почты:</b>
+         </label>
+         <input id="email-address" type="email" title="Укажите ваш основной, часто используемый адрес эл. почты" required>
+         </p>
+         <p>
+        <b style="width: 130px; display: inline-block">Как вы узнали о нас?</b>
+        </br>
+        </p>
+        <input id="networking1" type="radio" required name="networking" value="rad1" checked><label for="networking1">Посоветовали друзья/коллеги</label>
+       <p>
+       <input id="networking2" type="radio" required name="networking2" value="rad2" ><label for="networking">Поиск в Google</label>
+       </p>
+        <p>
+       <input id="networking3" type="radio" required name="networking" value="rad3" ><label for="networking3">Facebook</label>
+       </p>
+       <p>
+       <input id="networking4" type="radio" required name="networking" value="rad4" ><label for="networking4">Instagram</label>
+       </p>
+       <p>
+       <input id="networking5" type="radio" required name="networking" value="rad5" ><label for="networking5">Kharkiv IT Cluster</label>
+       </p>
+       <p>
+       <input id="networking6" type="radio" required name="networking" value="rad6" ><label for="networking6">Портал "СуХаРи"</label>
+       </p>
+        <input id="networking7" type="radio" required name="networking" value="rad7" ><label for="networking7">Другое:</label>
+        <textarea></textarea>
+       </p>
+       <p>
+        <b style="width: 130px; display: inline-block">Расписание курса:</b>
+        </br>
+        <p>
+        <input id="schedule1" type="radio" title="Укажите удобное для вас расписание" required name="schedule" value="rad1" checked><label for="schedule1">Любое</label>
+       </p>
+       <p>
+       <input id="schedule2" type="radio" title="Укажите удобное для вас расписание" required name="schedule" value="rad2" ><label for="schedule2">Пн, ср, пт (утро)</label>
+       </p>
+        <p>
+       <input id="schedule3" type="radio" title="Укажите удобное для вас расписание" required name="schedule" value="rad3" ><label for="schedule3">Вт, чт (вечер), сб (утро)</label>
+       </p>
+        <p>
+        <b style="width: 130px; display: inline-block">Примечания:</b>
+        </br>
+        <textarea title="При необходимости введите доп. информацию или промокод"></textarea>
+       </p>
+       <p>
+        <input id="permission" type="checkbox" required name="permission" value="option1"><label for="permission">Я даю соглашение на обработку своих персональных данных.</label>
+       </p>
+       <p style="text-align: center">
+       <button type="submit">
+       <img src="https://lh3.googleusercontent.com/proxy/0yXrZsaHxcfzr54CJaOE1Ly0YiAxIQtjVOdA7KTWC8Qr_VHPuVce1nBPG8dWf2cItx6gAx4W2M8iwuhZqVW0jB_45NjqmdnvYeN2Hw" alt="Plane" style="display: inline-block; width: 20px; vertical-align:middle">
+       <b>Отправить анкету</b>
+       </button>
+       </p>
+ </body>
+</html>
